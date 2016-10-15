@@ -1,0 +1,49 @@
+tabs:
+  fields:
+
+    ####################################################
+    # Tab: Info
+    ####################################################
+
+    website_name:
+      tab: Info
+      label: Website Name
+      type: text
+      default: <strong>Forty</strong> <span>by HTML5 UP</span>
+
+    website_author:
+      tab: Info
+      label: Author
+      type: text
+      default: Chris Evans
+      
+    website_logo:
+      tab: Info
+      label: Logo
+      type: text
+      comment: Url path to logo in header (ex. assets/img/logo.png). If no logo is added, the Website Name will be used.
+
+    website_url:
+      tab: Info
+      label: URL
+      type: text
+      default: "http://forty.summixdesign.com"
+
+    description:
+      tab: Info
+      label: Description
+      type: textarea
+      default: "Modern and Clean OctoberCMS Theme"
+
+    keywords:
+      tab: Info
+      label: Keywords
+      type: taglist
+      separator: comma
+      default: october,octobercms,themes,templates,free octobercms themes
+      options:
+        - october
+        - octobercms
+        - themes
+        - templates
+        - free octobercms themes

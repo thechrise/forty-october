@@ -1,0 +1,9 @@
+name: Forty
+description: 'Forty Theme from HTML5UP'
+author: 'Chris Evans'
+homepage: 'https://summixdesign.com'
+code: ''
+form: fields.yaml
+
+require:
+- Contact Us

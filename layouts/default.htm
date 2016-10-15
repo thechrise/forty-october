@@ -1,0 +1,40 @@
+description = "Standard layout"
+==
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% partial "html_base/meta_head" %}
+    </head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					{% partial 'all_pages/header' %}
+
+				<!-- Menu -->
+					{% partial 'all_pages/menu' %}
+
+				<!-- Main -->
+					<div id="main" class="alt">
+				        {% page %}
+				    </div>
+
+				<!-- Contact -->
+					{% partial 'all_pages/contact' %}
+
+				<!-- Footer -->
+					{% partial 'all_pages/footer' %}
+
+			</div>
+
+            <!-- Scripts -->
+			{% partial "html_base/scripts" %}
+	</body>
+</html>
