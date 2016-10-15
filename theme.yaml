@@ -2,8 +2,7 @@ name: Forty
 description: 'Forty Theme from HTML5UP'
 author: 'Chris Evans'
 homepage: 'https://summixdesign.com'
-code: ''
+code: forty
 form: fields.yaml
-
 require:
-- Contact Us
+    - 'Contact Us'
