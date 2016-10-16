@@ -1,6 +1,6 @@
 ==
 <header id="header" class="{% if this.page.layout == 'index' %}alt{% elseif this.page.layout == 'landing' %}alt style2{% endif %}">
-						<a href="{{ '/'|app }}" class="logo">{% if this.theme.logo %}<img src="{{this.theme.logo|theme}}" alt="{{this.theme.site_name}}">{% elseif this.theme.site_name %}{{ this.theme.site_name }}{% else %}<strong>Forty</strong> <span>by HTML5 UP</span>{% endif %}</a>
+						<a href="{{ '/'|app }}" class="logo">{% if this.theme.site_logo %}<img src="{{this.theme.site_logo|theme}}" alt="{{this.theme.site_name}}">{% elseif this.theme.site_name %}{{ this.theme.site_name }}{% else %}<strong>Forty</strong> <span>by HTML5 UP</span>{% endif %}</a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>

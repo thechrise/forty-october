@@ -5,25 +5,24 @@ tabs:
     # Tab: Info
     ####################################################
 
-    website_name:
+    site_name:
       tab: Info
       label: Website Name
       type: text
-      default: <strong>Forty</strong> <span>by HTML5 UP</span>
 
-    website_author:
+    site_author:
       tab: Info
       label: Author
       type: text
       default: Chris Evans
       
-    website_logo:
+    site_logo:
       tab: Info
       label: Logo
       type: text
       comment: Url path to logo in header (ex. assets/img/logo.png). If no logo is added, the Website Name will be used.
 
-    website_url:
+    site_url:
       tab: Info
       label: URL
       type: text
