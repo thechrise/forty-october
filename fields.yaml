@@ -33,13 +33,6 @@ tabs:
       label: Description
       type: textarea
       default: "Modern and Clean OctoberCMS Theme"
-      
-    load_octobercms_framework:
-      tab: Assets
-      label: OctoberCMS Front-end Javascript Framework
-      type: switch
-      default: true
-      comment: Used to load Contact Form plugin. Found in partials/html_base/scripts.htm.
 
     keywords:
       tab: Info
